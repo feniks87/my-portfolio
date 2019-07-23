@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 
+:root {
+  --color-primary: #D15F74;
+  --color-primary-dark: #100202b6;
+  --color-primary-light: #2c210cd7;
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;

@@ -1,0 +1,46 @@
+.Header {
+    grid-column: 1 / -1;
+    background-image: linear-gradient(var(--color-primary-dark), var(--color-primary-light)), url(../../assets/img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+
+}
+
+.Greeting {
+    grid-column: 2;
+    grid-row: 1;
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 700;
+
+    letter-spacing: .05em;
+    justify-self: center;
+    align-self: center;
+}
+
+.Text {
+    grid-column: 2;
+    grid-row: 2;
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    justify-self: center;
+    align-self: center;
+}
+
+.paragraph {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 500;
+    justify-self: center;
+    align-self: center;
+}
