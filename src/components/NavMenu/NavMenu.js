@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './NavMenu.module.css';
 import Logo from '../../assets/img/logo.png';
+import NavItem from './NavItem/NavItem';
 
 const NavMenu = () => (
     <div className={styles.NavMenu}>
@@ -10,13 +11,11 @@ const NavMenu = () => (
         </div>
 
         <nav className={styles.NavItems}>
-            <li className={styles.NavItem}><a href="/" className={styles.NavLink}>About</a></li>
-            <li className={styles.NavItem}><a href="/Projects" className={styles.NavLink}>Projects</a></li>
-            <li className={styles.NavItem}><a href="/Contact" className={styles.NavLink}>Contact</a></li>
+            <NavItem link="/about">About</NavItem>
+            <NavItem link="/projects">Projects</NavItem>
+            <NavItem link="/contact">Contact</NavItem>
         </nav>
     </div>
 )
 
 export default NavMenu;
-
-

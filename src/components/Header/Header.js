@@ -9,7 +9,7 @@ const Header = () => (
         <div className={styles.Header}>
             <h1 className={styles.Greeting}>Hi, I am Kate!</h1>
             <h2 className={styles.Text}>Front-end developer</h2>
-            <p className={styles.paragraph}>Transforming design ideas into great user experience</p>
+            <p className={styles.Paragraph}>Transforming design ideas into great user experience</p>
         </div>
     </Aux>
 )

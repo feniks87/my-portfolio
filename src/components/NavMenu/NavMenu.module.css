@@ -1,6 +1,6 @@
 .NavMenu {
     font-size: 1.5rem;
-    color: #D15F74;
+    color: var(--color-primary);
     text-transform: uppercase;
     letter-spacing: .05em;
     list-style: none;
@@ -34,26 +34,8 @@
 
 }
 
-.NavItem {
-    align-self: center;
-}
-
-.NavItem a:hover,
-.NavItem a:active,
-.NavItem a.active {
-    border-bottom: 2px solid var(--color-primary);
-}
-
-.NavLink:link,
-.NavLink:visited {
-    color: currentColor;
-    text-decoration: none;
-    font-weight: 500;
-}
-
 .Logo {
     height: 3rem;
     margin-right: 1rem;
-    grid-column: 1;
     justify-self: start;
 }

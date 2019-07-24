@@ -1,0 +1,16 @@
+.NavItem {
+    align-self: center;
+}
+
+.NavItem a:hover,
+.NavItem a:active,
+.NavItem a.active {
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.NavLink:link,
+.NavLink:visited {
+    color: currentColor;
+    text-decoration: none;
+    font-weight: 500;
+}
