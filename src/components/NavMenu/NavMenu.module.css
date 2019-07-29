@@ -5,6 +5,7 @@
     letter-spacing: .05em;
     list-style: none;
     margin: 2.5rem 0;
+    background-color: #ffffff;
 
     grid-row: 1 / 2;
     grid-column: 2 / -2;
@@ -15,6 +16,13 @@
 
 .Wrapper {
     display: flex;
+}
+
+.Logo {
+    height: 3rem;
+    margin-right: 1rem;
+    justify-self: start;
+    align-self: center;
 }
 
 .Name {
@@ -34,8 +42,4 @@
 
 }
 
-.Logo {
-    height: 3rem;
-    margin-right: 1rem;
-    justify-self: start;
-}
+
