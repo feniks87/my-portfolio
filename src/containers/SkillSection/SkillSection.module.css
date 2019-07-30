@@ -1,0 +1,36 @@
+.SkillSection {
+    grid-column: 1 / -1;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, min-content);
+
+    background-image: linear-gradient(to bottom, var(--color-primary), var(--color-tertiary));
+    background-color: var(--color-primary);
+    margin-bottom: 5rem;
+}
+
+.SkillItems {
+    grid-column: 2 / -2;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 5rem;
+
+    margin-bottom: 7rem;
+}
+
+.SkillGroup {
+    display: grid;
+    grid-template-columns: min-content min-content;
+    grid-template-rows: 1fr;
+    grid-column-gap: 2rem;
+
+    padding: 1rem;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.SkillLogo path {
+    fill: var(--color-secondary);
+}

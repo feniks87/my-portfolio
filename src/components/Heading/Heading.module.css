@@ -1,15 +1,22 @@
 .Heading {
-    font-size: 2.5rem;
-    color: var(--color-primary);
+    font-size: 2.7rem;
     text-transform: uppercase;
     letter-spacing: .05em;
     border-top: 1px solid currentColor;
     border-bottom: 1px solid currentColor;
     padding: 1rem 0;
-    margin: 5rem 0;
+    margin: 6rem 0;
 
     grid-column: 1 / -1;
     grid-row: 1;
     justify-self: center;
     align-self: center;
+}
+
+.HeadingPink {
+    color: var(--color-primary);
+}
+
+.HeadingWhite {
+    color: var(--color-secondary);
 }

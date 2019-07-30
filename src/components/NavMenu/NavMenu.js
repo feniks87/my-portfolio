@@ -12,6 +12,7 @@ const NavMenu = () => (
 
         <nav className={styles.NavItems}>
             <NavItem link="/about">About</NavItem>
+            <NavItem link="/about">Skills</NavItem>
             <NavItem link="/projects">Projects</NavItem>
             <NavItem link="/contact">Contact</NavItem>
         </nav>

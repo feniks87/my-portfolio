@@ -4,6 +4,8 @@
   --color-primary: #D15F74;
   --color-primary-dark: #100202b6;
   --color-primary-light: #2c210cd7;
+  --color-secondary: #fff;
+  --color-tertiary: #F08484;
 }
 
 html {
