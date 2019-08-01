@@ -1,0 +1,41 @@
+.ProjectSection {
+    grid-column: 2 / -2;
+    grid-row: 5 / 6;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, min-content);
+
+    margin-bottom: 7rem;
+}
+
+.Projects {
+    grid-row: 2;
+
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-row-gap: 4rem;
+}
+
+.ProjectItem {
+    display: grid;
+
+    grid-template-columns: 30vw 1fr;
+    grid-column-gap: 4rem;
+}
+
+.ProjectItem img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.ProjectDescription {
+}
+
+.Tech {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+

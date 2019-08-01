@@ -1,0 +1,12 @@
+.TechItem {
+    width: 8rem;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;;
+
+    color: var(--color-secondary);
+    font-size: 1.5rem;
+    background-image: linear-gradient(to bottom, var(--color-primary), var(--color-tertiary));
+    background-color: var(--color-primary);
+    border-radius: 4px;
+}

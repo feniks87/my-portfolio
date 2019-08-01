@@ -17,6 +17,7 @@
 .Description p {
     line-height: 2;
     font-size: 1.6rem;
+    color: var(--color-primary-light);
 }
 
 .Description p:first-child {

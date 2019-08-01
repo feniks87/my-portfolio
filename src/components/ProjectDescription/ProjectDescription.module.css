@@ -1,0 +1,16 @@
+.ProjectDescription p {
+    line-height: 2;
+    font-size: 1.7rem;
+    color: var(--color-primary-light);
+}
+
+.ProjectDescription a {
+    color: var(--color-primary-dark);
+    text-decoration: none;
+}
+
+.ProjectDescription a:hover,
+.ProjectDescription a:active,
+.ProjectDescription a.active {
+    color: var(--color-tertiary);
+}
