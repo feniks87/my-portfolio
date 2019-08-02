@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Header.module.css';
-import Aux from '../../hoc/Auxiliary/_Aux';
 
 const Header = () => (
     <header className={styles.Header}>

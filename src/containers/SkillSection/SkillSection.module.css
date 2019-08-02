@@ -6,8 +6,7 @@
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(3, min-content);
 
-    background-image: linear-gradient(to bottom, var(--color-primary), var(--color-tertiary));
-    background-color: var(--color-primary);
+    background: linear-gradient(to bottom, var(--color-primary), var(--color-tertiary));
 }
 
 .SkillItems {
@@ -17,14 +16,15 @@
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 5rem;
 
-    margin-bottom: 7rem;
+    margin-bottom: 10rem;
 }
 
 .SkillGroup {
     display: grid;
-    grid-template-columns: min-content min-content;
+    grid-template-columns: min-content max-content;
     grid-template-rows: 1fr;
     grid-column-gap: 2rem;
+    grid-row-gap: 5rem;
 
     padding: 1rem;
     box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.19);

@@ -5,6 +5,7 @@ import Header from '../../containers/Header/Header';
 import AboutSection from '../../containers/AboutSection/AboutSection';
 import SkillSection from '../../containers/SkillSection/SkillSection';
 import ProjectSection from '../../containers/ProjectSection/ProjectSection';
+import ContactSection from '../../containers/ContactSection/ContactSection';
 
 
 
@@ -16,6 +17,7 @@ const Layout = () => {
             <AboutSection/>
             <SkillSection/>
             <ProjectSection/>
+            <ContactSection/>
         </div>
     );
 }
