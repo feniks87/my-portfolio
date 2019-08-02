@@ -7,10 +7,12 @@
 .ProjectDescription a {
     color: var(--color-primary-dark);
     text-decoration: none;
+    display: inline-block;
 }
 
 .ProjectDescription a:hover,
 .ProjectDescription a:active,
 .ProjectDescription a.active {
     color: var(--color-tertiary);
+    transition: all .2s;
 }

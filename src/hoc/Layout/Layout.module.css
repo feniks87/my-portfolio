@@ -1,7 +1,7 @@
 .Layout {
     display: grid;
     grid-template-rows: min-content 80vh repeat(6, min-content);
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(7, 1fr);
 
     background-color: #ffffff;
 }
