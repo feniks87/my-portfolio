@@ -61,4 +61,5 @@
 
 .Icon {
     fill: var(--color-primary);
+    pointer-events: none;
 }

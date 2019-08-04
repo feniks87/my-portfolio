@@ -6,6 +6,7 @@ import AboutSection from '../../containers/AboutSection/AboutSection';
 import SkillSection from '../../containers/SkillSection/SkillSection';
 import ProjectSection from '../../containers/ProjectSection/ProjectSection';
 import ContactSection from '../../containers/ContactSection/ContactSection';
+import Footer from '../../containers/Footer/Footer';
 
 
 
@@ -18,6 +19,7 @@ const Layout = () => {
             <SkillSection/>
             <ProjectSection/>
             <ContactSection/>
+            <Footer/>
         </div>
     );
 }

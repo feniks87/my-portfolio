@@ -31,6 +31,10 @@
     border-radius: 5px;
 }
 
+.SkillLogo {
+    pointer-events: none;
+}
+
 .SkillLogo path {
     fill: var(--color-secondary);
 }
