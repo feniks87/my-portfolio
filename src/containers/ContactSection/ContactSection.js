@@ -13,7 +13,7 @@ const ContactSection = () => (
         <div className={styles.ContactInfo}>
             <div className={styles.Text}>
                 <h1>Want to get in touch?</h1>
-                <p>Choose one of the options on the right <span>&rarr;</span></p>
+                <p>Choose one of the options <span>&rarr;</span></p>
             </div>
             <div className={styles.Contacts}>
                 <div className={styles.ContactGroup}>
