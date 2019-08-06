@@ -1,6 +1,6 @@
 .Layout {
     display: grid;
-    grid-template-rows: min-content 80vh repeat(6, min-content);
+    grid-template-rows: 6rem 80vh repeat(6, min-content);
     grid-template-columns: repeat(7, 1fr);
 
     background-color: #ffffff;
@@ -8,19 +8,19 @@
 
 @media only screen and (min-width: 1600px) {
     .Layout {
-        grid-template-rows: min-content 70vh repeat(6, min-content);
+        grid-template-rows: 6rem 70vh repeat(6, min-content);
     }
 }
 
 @media only screen and (max-width: 900px) {
     .Layout {
-        grid-template-rows: min-content 40vh repeat(6, min-content);
+        grid-template-rows: 6rem 40vh repeat(6, min-content);
     }
 }
 
 
 @media only screen and (max-width: 600px) {
     .Layout {
-        grid-template-rows: min-content 45vh repeat(6, min-content);
+        grid-template-rows: 6rem 45vh repeat(6, min-content);
     }
 }

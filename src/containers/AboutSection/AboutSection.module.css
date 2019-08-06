@@ -1,5 +1,6 @@
 .AboutSection {
     grid-column: 2 / -2;
+    grid-row: 3;
     margin-bottom: 7rem;
 
     display: grid;

@@ -8,7 +8,7 @@ const AboutSection = () => (
         <Heading headingStyle="HeadingPink">About me</Heading>
         <div className={styles.About}>
             <div className={styles.Photo}>
-                <img src={Photo} alt="Photo"/>
+                <img src={Photo} alt="Kate"/>
             </div>
             <div className={styles.Description}>
                 <p>I am a self-motivated Front-end  Web Developer, based in Auckland (New Zealand), who is always ready to turn up sleeves and acquire new skills in web development.</p>

@@ -1,5 +1,6 @@
 .Header {
     grid-column: 1 / -1;
+    grid-row: 2;
     background-image: linear-gradient(var(--color-primary-dark), var(--color-primary-light)), url(../../assets/img/hero.jpg);
     background-size: cover;
     background-position: center;
