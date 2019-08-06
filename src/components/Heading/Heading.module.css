@@ -20,3 +20,9 @@
 .HeadingWhite {
     color: var(--color-secondary);
 }
+
+@media only screen and (max-width: 37.5em) {
+    .Heading {
+        margin: 5rem 0;;
+    }
+}

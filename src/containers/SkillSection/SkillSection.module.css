@@ -4,13 +4,14 @@
 
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(3, min-content);
+    grid-template-rows: repeat(2, min-content);
 
     background: linear-gradient(to bottom, var(--color-primary), var(--color-tertiary));
 }
 
 .SkillItems {
     grid-column: 2 / -2;
+
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -21,7 +22,7 @@
 
 .SkillGroup {
     display: grid;
-    grid-template-columns: min-content max-content;
+    grid-template-columns: min-content min-content;
     grid-template-rows: 1fr;
     grid-column-gap: 2rem;
     grid-row-gap: 5rem;
@@ -37,4 +38,38 @@
 
 .SkillLogo path {
     fill: var(--color-secondary);
+}
+
+@media only screen and (max-width: 1050px) {
+    .SkillItems {
+        grid-gap: 4rem;
+        grid-template-columns: repeat(4, 1fr);
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .SkillItems {
+        grid-column: 1 / -1;
+        grid-gap: 5rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .SkillItems {
+        margin-right: 5rem;
+        margin-left: 5rem;
+        margin-bottom: 7rem;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 3rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .SkillItems {
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 7rem;
+    }
 }

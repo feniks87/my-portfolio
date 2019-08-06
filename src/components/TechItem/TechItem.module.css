@@ -15,3 +15,23 @@
     margin-left: 0;
 }
 
+@media only screen and (max-width: 1200px) {
+    .TechItem {
+        margin: .75rem;
+    }
+
+    .TechItem:first-child {
+        margin-left: .75rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .TechItem {
+        margin: .5rem;
+    }
+
+    .TechItem:first-child {
+        margin-left: .5rem;
+    }
+}
+

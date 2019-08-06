@@ -5,3 +5,22 @@
 
     background-color: #ffffff;
 }
+
+@media only screen and (min-width: 1600px) {
+    .Layout {
+        grid-template-rows: min-content 70vh repeat(6, min-content);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Layout {
+        grid-template-rows: min-content 40vh repeat(6, min-content);
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Layout {
+        grid-template-rows: min-content 45vh repeat(6, min-content);
+    }
+}

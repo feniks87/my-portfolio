@@ -34,7 +34,7 @@ const ProjectSection = () => (
             </div>
 
             <div className={styles.ProjectItem}>
-            <a href="https://react-shopping-list-a5bb8.web.app/" target="_blank"><img className={styles.ProjectImage} src={Project2} alt="Project 2"/></a>
+                <a href="https://react-shopping-list-a5bb8.web.app/" target="_blank"><img className={styles.ProjectImage} src={Project2} alt="Project 2"/></a>
                 <div className={styles.ProjectDescription}>
                     <ProjectDescription
                         name="Shopping List"
@@ -51,7 +51,7 @@ const ProjectSection = () => (
             </div>
 
             <div className={styles.ProjectItem}>
-            <a href="https://feniks87.github.io/pure-nz/" target="_blank"><img className={styles.ProjectImage} src={Project3} alt="Project 3"/></a>
+                <a href="https://feniks87.github.io/pure-nz/" target="_blank"><img className={styles.ProjectImage} src={Project3} alt="Project 3"/></a>
                 <div className={styles.ProjectDescription}>
                     <ProjectDescription
                         name="Pure NZ"
@@ -66,7 +66,7 @@ const ProjectSection = () => (
             </div>
 
             <div className={styles.ProjectItem}>
-            <a href="https://feniks87.github.io/fenix/" target="_blank"><img className={styles.ProjectImage} src={Project4} alt="Project 4"/></a>
+                <a href="https://feniks87.github.io/fenix/" target="_blank"><img className={styles.ProjectImage} src={Project4} alt="Project 4"/></a>
                 <div className={styles.ProjectDescription}>
                     <ProjectDescription
                         name="Fenix"
@@ -81,7 +81,7 @@ const ProjectSection = () => (
             </div>
 
             <div className={styles.ProjectItem}>
-            <a href="https://feniks87.github.io/nexter/" target="_blank"><img className={styles.ProjectImage} src={Project5} alt="Project 5"/></a>
+                <a href="https://feniks87.github.io/nexter/" target="_blank"><img className={styles.ProjectImage} src={Project5} alt="Project 5"/></a>
                 <div className={styles.ProjectDescription}>
                     <ProjectDescription
                         name="Nexter"

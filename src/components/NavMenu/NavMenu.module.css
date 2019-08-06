@@ -38,7 +38,18 @@
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 4rem;
     justify-items: end;
+}
 
+@media only screen and (max-width: 900px) {
+    .NavMenu {
+        grid-column: 1 / -1;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .NavItems {
+        grid-column-gap: 2.5rem;
+    }
 }
 
 
