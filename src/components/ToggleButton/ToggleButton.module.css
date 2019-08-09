@@ -1,0 +1,24 @@
+.ToggleButton {
+    width: 4rem;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-right: 4rem;
+}
+
+.ToggleButton div {
+    width: 90%;
+    height: .3rem;
+    background-color: var(--color-primary);
+}
+
+@media only screen and (min-width: 600px) {
+    .ToggleButton {
+        display: none;
+    }
+}

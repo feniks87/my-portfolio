@@ -12,15 +12,14 @@
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     .Layout {
-        grid-template-rows: 6rem 40vh repeat(6, min-content);
+        grid-template-rows: 6rem 50vh repeat(6, min-content);
     }
 }
 
-
 @media only screen and (max-width: 600px) {
     .Layout {
-        grid-template-rows: 6rem 45vh repeat(6, min-content);
+        grid-template-rows: 6rem 40vh repeat(6, min-content);
     }
 }

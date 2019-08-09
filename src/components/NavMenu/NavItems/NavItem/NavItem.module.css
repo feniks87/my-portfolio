@@ -1,8 +1,18 @@
 .NavItem {
-    margin: 0 1.5rem;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+.NavItem a {
+    color: var(--color-primary);
+    text-decoration: none;
+    width: 100%;
     box-sizing: border-box;
     display: block;
-    width: 100%;
 }
 
 .NavItem a:hover,
@@ -12,8 +22,26 @@
     transition: all .1s;
 }
 
-.NavLink:link,
-.NavLink:visited {
+.NavItem:link,
+.NavItem:visited {
     color: currentColor;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .NavItem {
+        margin: 1rem 0;
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+    }
+
+    .NavItem a:hover,
+    .NavItem a:active,
+    .NavItem a.active {
+        color: var(--color-tertiary);
+        border-bottom: none;
+        font-weight: 700;
+
+}
 }

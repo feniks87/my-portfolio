@@ -1,0 +1,36 @@
+.BurgerMenu {
+    position: fixed;
+    width: 100%;
+    height: 35%;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background-color: var(--color-secondary);
+    padding: 3rem 1.6rem;
+    box-sizing: border-box;
+    transition: transform .3s ease-out;
+}
+
+.Open {
+    transform: translateY(0);
+}
+
+.Close {
+    transform: translateY(-200%);
+}
+
+@media only screen and (min-width: 600px) {
+    .BurgerMenu {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 450px) {
+    .BurgerMenu {
+        height: 70%;
+    }
+}
+
+
+
+

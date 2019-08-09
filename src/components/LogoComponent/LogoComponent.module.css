@@ -10,9 +10,14 @@
 }
 
 .Name {
-    grid-column: 1 / 2;
     font-size: 1.7rem;
     font-weight: 700;
     letter-spacing: .05em;
     align-self: center;
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+
 }
