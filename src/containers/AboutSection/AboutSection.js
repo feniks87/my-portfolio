@@ -4,8 +4,8 @@ import Heading from '../../components/Heading/Heading';
 import Photo from '../../assets/img/photo.jpg';
 
 const AboutSection = () => (
-    <div className={styles.AboutSection}>
-        <Heading headingStyle="HeadingPink">About me</Heading>
+    <section id="about" className={styles.AboutSection}>
+        <Heading  headingStyle="HeadingPink">About me</Heading>
         <div className={styles.About}>
             <div className={styles.Photo}>
                 <img src={Photo} alt="Kate"/>
@@ -17,7 +17,7 @@ const AboutSection = () => (
                 <p>In my spare time I love to do some outdoor activities with my family, in particular, exploring incredible New Zealand.</p>
             </div>
         </div>
-    </div>
+    </section>
 );
 
 export default AboutSection;

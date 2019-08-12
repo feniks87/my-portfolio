@@ -15,7 +15,7 @@ import { ReactComponent as GitLogo } from '../../assets/svg/git.svg';
 
 
 const SkillSection = () => (
-    <div className={styles.SkillSection}>
+    <section id="skills" className={styles.SkillSection}>
         <Heading headingStyle="HeadingWhite">My skills</Heading>
         <div className={styles.SkillItems}>
             <div className={styles.SkillGroup}>
@@ -59,7 +59,7 @@ const SkillSection = () => (
                 <SkillItem>Git</SkillItem>
             </div>
         </div>
-    </div>
+    </section>
 );
 
 export default SkillSection;

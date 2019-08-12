@@ -1,7 +1,3 @@
-.Wrapper {
-    display: flex;
-}
-
 .Logo {
     height: 3rem;
     margin-right: 1rem;
@@ -18,6 +14,11 @@
     text-transform: uppercase;
 }
 
-@media only screen and (max-width: 600px) {
+.Link {
+    display: flex;
+}
 
+.Link:link,
+.Link:visited {
+    text-decoration: none;
 }

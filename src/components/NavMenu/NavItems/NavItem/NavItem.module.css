@@ -18,8 +18,8 @@
 .NavItem a:hover,
 .NavItem a:active,
 .NavItem a.active {
-    border-bottom: 2px solid var(--color-primary);
-    transition: all .1s;
+    color: var(--color-tertiary);
+    font-weight: 700;
 }
 
 .NavItem:link,

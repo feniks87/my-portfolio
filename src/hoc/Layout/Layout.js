@@ -19,7 +19,7 @@ const Layout = () => {
     const closeHandler = () => setOpen(!isOpen);
 
     return (
-        <div className={styles.Layout}>
+        <div id="home" className={styles.Layout}>
             <NavBar toggleButtonClicked={toggleHandler}/>
             <BurgerMenu open={isOpen} closed={closeHandler}/>
             <Header/>

@@ -8,7 +8,7 @@ import { ReactComponent as PhoneIcon } from '../../assets/svg/phone.svg';
 import { ReactComponent as TelegamIcon } from '../../assets/svg/telegram.svg';
 
 const ContactSection = () => (
-    <div className={styles.ContactSection}>
+    <section id="contact" className={styles.ContactSection}>
         <Heading headingStyle="HeadingWhite">Contact me</Heading>
         <div className={styles.ContactInfo}>
             <div className={styles.Text}>
@@ -30,7 +30,7 @@ const ContactSection = () => (
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 );
 
 export default ContactSection;

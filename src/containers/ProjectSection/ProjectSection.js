@@ -13,7 +13,7 @@ import Project5 from '../../assets/img/project-5.png';
 
 
 const ProjectSection = () => (
-    <div className={styles.ProjectSection}>
+    <section id="projects" className={styles.ProjectSection}>
         <Heading headingStyle="HeadingPink">Projects</Heading>
         <div className={styles.Projects}>
             <div className={styles.ProjectItem}>
@@ -95,7 +95,7 @@ const ProjectSection = () => (
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 );
 
 export default ProjectSection;
