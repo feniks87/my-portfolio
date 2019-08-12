@@ -10,9 +10,6 @@
 .NavItem a {
     color: var(--color-primary);
     text-decoration: none;
-    width: 100%;
-    box-sizing: border-box;
-    display: block;
 }
 
 .NavItem a:hover,
@@ -42,6 +39,5 @@
         color: var(--color-tertiary);
         border-bottom: none;
         font-weight: 700;
-
-}
+	}
 }

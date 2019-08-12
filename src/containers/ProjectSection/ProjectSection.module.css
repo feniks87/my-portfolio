@@ -28,6 +28,11 @@
     width: 100%;
     object-fit: cover;
     margin-top: 1rem;
+    transition: transform .3s;
+}
+
+.ProjectItem img:hover {
+    transform: translateY(-.5rem ) scale(1.03);
 }
 
 .Tech {

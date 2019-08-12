@@ -20,3 +20,10 @@
     color: var(--color-tertiary);
     transition: all .2s;
 }
+
+@media only screen and (max-width: 600px) {
+    .ProjectDescription a {
+        display: block;
+        text-align: center;
+    }
+}
