@@ -16,9 +16,15 @@
 
 .Link {
     display: flex;
+    transition: transform .3s;
+}
+
+.Link:hover {
+    transform: scale(1.03);
 }
 
 .Link:link,
 .Link:visited {
     text-decoration: none;
 }
+

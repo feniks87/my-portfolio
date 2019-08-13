@@ -17,6 +17,15 @@
 .FooterIcons {
     display: flex;
     justify-content: space-between;
+
+}
+
+.FooterIcons a {
+    transition: transform .3s;
+}
+
+.FooterIcons a:hover {
+    transform: scale(1.1);
 }
 
 .Icon {
@@ -25,8 +34,10 @@
     width: 2.5rem;
     margin: 0 2rem;
     pointer-events: none;
+
 }
 
 .Copyright {
     justify-self: center;
 }
+
