@@ -15,7 +15,6 @@
 .NavItem a:hover,
 .NavItem a:active,
 .NavItem a.active {
-    color: var(--color-tertiary);
     font-weight: 700;
 }
 

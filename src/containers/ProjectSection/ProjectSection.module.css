@@ -33,6 +33,7 @@
 
 .ProjectItem img:hover {
     transform: translateY(-.5rem ) scale(1.03);
+    z-index: 100;
 }
 
 .Tech {

@@ -9,6 +9,7 @@
     height: 6rem;
     padding: 0 2rem;
     border-bottom: 1.5px solid rgb(240, 231, 231);
+    z-index: 200;
 }
 
 @media only screen and (max-width: 599px) {
