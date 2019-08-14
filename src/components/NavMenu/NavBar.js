@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from './NavBar.module.css';
-import NavItem from '../NavMenu/NavItems/NavItem/NavItem';
 import NavItems from '../NavMenu/NavItems/NavItems';
 import Logo from '../LogoComponent/LogoComponent';
-import ToggleButton from '../ToggleButton/ToggleButton';
+import ToggleButton from '../UI/ToggleButton/ToggleButton';
 
 const NavBar = (props) => (
     <div className={styles.NavBar}>

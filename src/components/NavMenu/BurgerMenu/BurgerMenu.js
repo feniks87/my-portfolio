@@ -2,7 +2,7 @@ import React from 'react';
 import LogoComponent from '../../LogoComponent/LogoComponent';
 import NavItems from '../NavItems/NavItems';
 import styles from './BurgerMenu.module.css';
-import Backdrop from '../../BackDrop/BackDrop';
+import Backdrop from '../../UI/BackDrop/BackDrop';
 import Aux from '../../../hoc/Auxiliary/_Aux';
 
 const BurgerMenu = (props) => {

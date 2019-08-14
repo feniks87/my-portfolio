@@ -17,7 +17,7 @@ const ProjectSection = () => (
         <Heading headingStyle="HeadingPink">Projects</Heading>
         <div className={styles.Projects}>
             <div className={styles.ProjectItem}>
-                <a href="https://the-bk-hairdressing.web.app/" target="_blank"><img className={styles.ProjectImage} src={Project1} alt="Project 1"/></a>
+                <a href="https://the-bk-hairdressing.web.app/" target="_blank"><img src={Project1} alt="Project 1"/></a>
                 <div className={styles.ProjectDescription}>
                     <ProjectDescription
                         name="The BK Hairdressing"
