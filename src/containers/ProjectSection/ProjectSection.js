@@ -22,7 +22,7 @@ const ProjectSection = () => (
                     <ProjectDescription
                         name="The BK Hairdressing"
                         url="https://the-bk-hairdressing.web.app/"
-                        description="A hairdressing salon web application implemented using React with Redux state management (study project)."/>
+                        description="A hairdressing salon web application, implemented using React with Redux state management (study project)."/>
                     <div className={styles.Tech}>
                         <TechItem>JavaScript</TechItem>
                         <TechItem>React.js</TechItem>
@@ -39,7 +39,7 @@ const ProjectSection = () => (
                     <ProjectDescription
                         name="Shopping List"
                         url="https://react-shopping-list-a5bb8.web.app/"
-                        description="Small React application for planning and managing my shopping which demonstrates a simple responsive design."/>
+                        description="Small React application for planning and managing my shopping with responsive design."/>
                     <div className={styles.Tech}>
                         <TechItem>JavaScript</TechItem>
                         <TechItem>React.js</TechItem>
