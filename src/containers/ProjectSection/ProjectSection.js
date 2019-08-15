@@ -43,7 +43,6 @@ const ProjectSection = () => (
                     <div className={styles.Tech}>
                         <TechItem>JavaScript</TechItem>
                         <TechItem>React.js</TechItem>
-                        <TechItem>Redux</TechItem>
                         <TechItem>CSS</TechItem>
                         <TechItem>Bootstrap</TechItem>
                     </div>
