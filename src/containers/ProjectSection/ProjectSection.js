@@ -22,7 +22,7 @@ const ProjectSection = () => (
                     <ProjectDescription
                         name="The BK Hairdressing"
                         url="https://the-bk-hairdressing.web.app/"
-                        description="React-redux application for the hairdressing salon (study project)."/>
+                        description="A hairdressing salon web application implemented using React with Redux state management (study project)."/>
                     <div className={styles.Tech}>
                         <TechItem>JavaScript</TechItem>
                         <TechItem>React.js</TechItem>
@@ -39,7 +39,7 @@ const ProjectSection = () => (
                     <ProjectDescription
                         name="Shopping List"
                         url="https://react-shopping-list-a5bb8.web.app/"
-                        description="Simple React app for planning and managing my shopping (responsive design)."/>
+                        description="Small React application for planning and managing my shopping which demonstrates a simple responsive design."/>
                     <div className={styles.Tech}>
                         <TechItem>JavaScript</TechItem>
                         <TechItem>React.js</TechItem>
@@ -56,7 +56,7 @@ const ProjectSection = () => (
                     <ProjectDescription
                         name="Pure NZ"
                         url="https://feniks87.github.io/pure-nz/"
-                        description="Website theme for a travel agency app, filled with pure CSS animation effects and implemented while learning advanced CSS features. Used BEM methodology with Sass."/>
+                        description="Website theme for a travel agency app, filled with pure CSS animation effects and implemented while learning advanced CSS features. Built with following BEM methodology and Sass."/>
                     <div className={styles.Tech}>
                         <TechItem>HTML</TechItem>
                         <TechItem>CSS</TechItem>
@@ -71,7 +71,7 @@ const ProjectSection = () => (
                     <ProjectDescription
                         name="Fenix"
                         url="https://feniks87.github.io/fenix/"
-                        description="Web page theme for a travel booking app, implemented while learning CSS Flexbox layout. Used BEM methodology with Sass."/>
+                        description="Web page theme for a travel booking app, built while learning CSS Flexbox layout. Implemented with following BEM methodology and Sass."/>
                     <div className={styles.Tech}>
                         <TechItem>HTML</TechItem>
                         <TechItem>CSS</TechItem>
@@ -86,7 +86,7 @@ const ProjectSection = () => (
                     <ProjectDescription
                         name="Nexter"
                         url="https://feniks87.github.io/nexter/"
-                        description="Landing page theme for a real estate agency, implemented while learning CSS Grid layouts. Used BEM methodology with Sass. Design by Jonas Schmedtmann."/>
+                        description="Landing page theme for a real estate agency, built while learning CSS Grid layouts. Implemented with following BEM methodology and Sass. Design by Jonas Schmedtmann."/>
                     <div className={styles.Tech}>
                         <TechItem>HTML</TechItem>
                         <TechItem>CSS</TechItem>
