@@ -86,6 +86,10 @@
         margin-top: 0;
     }
 
+    .ProjectItem img:hover {
+        transform: none;
+    }
+
     .Tech {
         justify-content: center;
     }

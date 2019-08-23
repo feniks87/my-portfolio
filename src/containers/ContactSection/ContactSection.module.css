@@ -91,7 +91,7 @@
     }
 
     .Contacts {
-        grid-row-gap: 1rem;
+        grid-row-gap: 2rem;
         justify-self: center;
     }
 
