@@ -2,11 +2,11 @@
     color: var(--color-secondary);
     font-size: 2rem;
     align-self: center;
+    user-select: none;
 }
 
 @media only screen and (max-width: 900px) {
     .SkillItem {
         font-size: 1.7rem;
-
     }
 }

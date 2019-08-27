@@ -9,6 +9,7 @@
     background-image: linear-gradient(to bottom, var(--color-primary), var(--color-tertiary));
     background-color: var(--color-primary);
     border-radius: 4px;
+    user-select: none;
 }
 
 .TechItem:first-child {

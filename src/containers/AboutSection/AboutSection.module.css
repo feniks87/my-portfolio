@@ -8,20 +8,17 @@
 }
 
 .About {
-    display: grid;
-    grid-template-columns: 25vw 1fr;
-    grid-template-rows: repeat(2, min-content);
-    grid-column-gap: 3rem;
+    display: flex;
 }
 
 .Photo {
     margin-top: .6rem;
+    margin-right: 4rem;
 }
 
 .Photo img {
     width: 100%;
     border-radius: 2px;
-    object-fit: cover;
     display: block;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.19);
 }
@@ -45,32 +42,18 @@
     }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 600px) {
     .AboutSection {
-        margin-right: 3rem;
-        margin-left: 3rem;
-        margin-bottom: 5rem;
+        margin-right: 3.5rem;
+        margin-left: 3.5rem;
+    }
+
+    .About {
+        flex-direction: column;
     }
 
     .Photo {
-        grid-column: 1 / -1;
-        margin-bottom: 3rem;
-        margin-top: 0;
-    }
-
-    .Description {
-        grid-column: 1 / -1;
-        grid-row: 3;
-    }
-
-    .Photo img {
-        height: 100%;
-        border-radius: 2px;
-        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.19);
-
+        margin-right: 0;
+        margin-bottom: 2.5rem;
     }
 }
-
-
-
-

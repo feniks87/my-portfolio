@@ -11,7 +11,7 @@
 
     font-size: 1.3rem;
     color: var(--color-primary-dark);
-    grid-row-gap: 2rem;
+    grid-row-gap: 3rem;
 }
 
 .FooterIcons {
