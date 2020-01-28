@@ -34,7 +34,7 @@ const ProjectSection = () => (
             </div>
 
             <div className={styles.ProjectItem}>
-                <a href="https://react-shopping-list-a5bb8.web.app/" target="_blank" rel="noopener noreferrer"><img className={styles.ProjectImage} src={Project2} alt="Project 2"/></a>
+                <a href="https://feniks87.github.io/my-shopping-list/" target="_blank" rel="noopener noreferrer"><img className={styles.ProjectImage} src={Project2} alt="Project 2"/></a>
                 <div className={styles.ProjectDescription}>
                     <ProjectDescription
                         name="Shopping List"
