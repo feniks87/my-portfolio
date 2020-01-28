@@ -38,7 +38,7 @@ const ProjectSection = () => (
                 <div className={styles.ProjectDescription}>
                     <ProjectDescription
                         name="Shopping List"
-                        url="https://react-shopping-list-a5bb8.web.app/"
+                        url="https://feniks87.github.io/my-shopping-list/"
                         description="Small React application for planning and managing my shopping with responsive design."/>
                     <div className={styles.Tech}>
                         <TechItem>JavaScript</TechItem>
