@@ -16,7 +16,7 @@ const Footer = () => (
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/feniks87"><GithubIcon className={styles.Icon}/></a>
             </div>
             <div className={styles.Copyright}>
-                &copy; 2019 Designed and built by Kate Shaitarova
+                &copy; 2020 Designed and built by Kate Shaitarova
             </div>
         </div>
     </footer>
