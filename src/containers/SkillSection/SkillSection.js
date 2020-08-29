@@ -50,7 +50,7 @@ const SkillSection = () => (
             </div>
             <div className={styles.SkillGroup}>
                 <StyledLogo className={styles.SkillLogo}/>
-                <SkillItem style={{fontSize: "10px"}}>Styled Components</SkillItem>
+                <SkillItem>Styled Components</SkillItem>
             </div>
             <div className={styles.SkillGroup}>
                 <GraphQlLogo className={styles.SkillLogo}/>
