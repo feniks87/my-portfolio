@@ -12,6 +12,8 @@ import { ReactComponent as BootstrapLogo } from '../../assets/svg/bootstrap.svg'
 import { ReactComponent as SQLLogo } from '../../assets/svg/mysql.svg';
 import { ReactComponent as MongoLogo } from '../../assets/svg/mongodb.svg';
 import { ReactComponent as GitLogo } from '../../assets/svg/git.svg';
+import { ReactComponent as GraphQlLogo } from '../../assets/svg/graphql.svg';
+import { ReactComponent as StyledLogo } from '../../assets/svg/styled-components.svg';
 
 
 const SkillSection = () => (
@@ -45,6 +47,14 @@ const SkillSection = () => (
             <div className={styles.SkillGroup}>
                 <BootstrapLogo className={styles.SkillLogo}/>
                 <SkillItem>Bootstrap</SkillItem>
+            </div>
+            <div className={styles.SkillGroup}>
+                <StyledLogo className={styles.SkillLogo}/>
+                <SkillItem style={{fontSize: "10px"}}>Styled Components</SkillItem>
+            </div>
+            <div className={styles.SkillGroup}>
+                <GraphQlLogo className={styles.SkillLogo}/>
+                <SkillItem>GraphQL</SkillItem>
             </div>
             <div className={styles.SkillGroup}>
                 <SQLLogo className={styles.SkillLogo}/>
